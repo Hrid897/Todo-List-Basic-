@@ -28,7 +28,7 @@ function todoDisplay(){
     for(let i=0; i<todolist.length; i++){
         const todo = todolist[i];
         const cur_html = `
-            <div>${i+1}  ${todo.name}</div>
+            <div>${i+1}.  ${todo.name}</div>
             <div>${todo.date} </div>
             <button onclick="
                 todolist.splice(${i},1);
