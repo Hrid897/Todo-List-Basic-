@@ -23,6 +23,9 @@ body{
     font-size: 15px;
     padding: 6px;
 }
+.date-input{
+    margin-right: 10px;
+}
 
 .add-button{
     background-color: green;
